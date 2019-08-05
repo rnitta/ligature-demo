@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>
+        ligature
+    </title>
+    <style>
+
+        @font-face {
+            font-family: "language";
+            src: url("./src/language.eot");
+            src: url("./src/language.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "badapple";
+            src: url("./src/badapple.eot");
+            src: url("./src/badapple.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        input {
+            font-size: 100px;
+            height: 100px;
+        }
+
+        .language {
+            font-family: language;
+        }
+
+        .badapple {
+            font-family: badapple;
+        }
+
+    </style>
+</head>
+
+<body>
+<section>
+    <h1>
+        A長押し
+    </h1>
+    <input class="badapple" type="text"></input>
+</section>
+<section>
+    <h1>
+        好きな言語は
+    </h1>
+    <input class="language" type="text" value="ruby"></input>
+</section>
+</body>
+</html>
